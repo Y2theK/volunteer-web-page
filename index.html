@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- header section -->
+      <div class="header d-flex bg-primary" style="height: 250px">
+        <div
+          class="header-left d-flex align-items-center justify-content-center w-100"
+        >
+          <h3 class="text-warning">JusX Blog</h3>
+        </div>
+
+        <div class="header-right w-100">
+          <img class="" src="./img/bg.jpg" alt="" width="100%" height="100%" />
+        </div>
+      </div>
+      <!-- end header section -->
+      <!-- search section -->
+      <div
+        class="search bg-warning opacity-75 py-3 d-flex flex-column flex-md-row justify-content-center align-items-center"
+      >
+        <div class="text-black mb-2 mb-md-0 mx-4 fw-bold fs-5">
+          Search Article
+        </div>
+        <form action="" method="get">
+          <div class="form-group position-relative">
+            <input
+              type="text"
+              class="form-control shadow-none p-2 px-5 rounded-2"
+              placeholder="Search Here"
+            />
+            <svg
+              style="width: 20px; top: 10px; right: 20px"
+              class="position-absolute text-primary"
+              fill="none "
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="text-primary"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              ></path>
+            </svg>
+          </div>
+        </form>
+      </div>
+      <!-- end search section -->
+      <!-- body section -->
+      <div class="body-section d-sm-flex">
+        <!-- search engine section -->
+        <div class="search-engine p-3">
+          <div class="categories my-3">
+            <div
+              class="bg-primary d-inline-flex rounded-pill mb-2 p-1 px-3 text-white"
+            >
+              Legal Knowledge
+            </div>
+            <div
+              class="bg-primary d-inline-flex rounded-pill p-1 px-3 text-white"
+            >
+              Human Right
+            </div>
+          </div>
+
+          <div class="text-primary fs-5 fw-bold my-3">Search Engine</div>
+          <div class="interest-area">
+            <p class="m-0 fw-bold">Interest Area</p>
+            <div class="dropdown">
+              <button
+                class="btn btn-primary dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+              >
+                Search Area <span class="caret"></span>
+              </button>
+              <ul
+                class="outline-light dropdown-menu overflow-auto"
+                style="height: 120px"
+              >
+                <li><input type="checkbox" name="" id="" class="mx-2" />All</li>
+                <li>
+                  <input
+                    type="checkbox"
+                    name=""
+                    id=""
+                    class="mx-2"
+                  />Environmental
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    name=""
+                    id=""
+                    class="mx-2"
+                    checked
+                  />Human Rights
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    name=""
+                    id=""
+                    class="mx-2"
+                  />International law
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" class="mx-2" />Something
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" class="mx-2" />Something
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" class="mx-2" />Something
+                </li>
+                <li>
+                  <input type="checkbox" name="" id="" class="mx-2" />Something
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="type mt-3">
+            <p class="m-0 fw-bold">Type</p>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                name=""
+                id=""
+                value=""
+                class="text-primary"
+              />
+              <label for="" class="ms-1">Review Article</label>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" checked name="" id="" value="" class="" />
+              <label for="" class="ms-1">Book Reviews</label>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" name="" id="" value="" class="" />
+              <label for="" class="ms-1">Commentary</label>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" name="" id="" value="" class="" />
+              <label for="" class="ms-1">Viewpoints/ Opnions</label>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" name="" id="" value="" class="" />
+              <label for="" class="ms-1">Research Article</label>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" name="" id="" value="" class="" />
+              <label for="" class="ms-1">Editorials</label>
+            </div>
+
+            <div class="form-group">
+              <input type="checkbox" name="" id="" value="" class="" />
+              <label for="" class="ms-1">Academic Material</label>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" name="" id="" value="" class="" />
+              <label for="" class="ms-1">Books</label>
+            </div>
+          </div>
+          <div class="author mt-3">
+            <p class="m-0 fw-bold">Author</p>
+            <div class="form-group">
+              <input type="checkbox" checked name="" id="" value="" class="" />
+              <label for="" class="ms-1">Individual</label>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" checked name="" id="" value="" class="" />
+              <label for="" class="ms-1">Orgaranizion</label>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" checked name="" id="" value="" class="" />
+              <label for="" class="ms-1">Campanies</label>
+            </div>
+          </div>
+          <div class="published-data my-3">
+            <p class="m-0 fw-bold">From</p>
+            <input type="date" name="" id="" />
+            <p class="m-0 fw-bold">To</p>
+            <input type="date" name="" id="" />
+          </div>
+        </div>
+        <!-- end search engine section -->
+        <!-- card container section -->
+        <div class="card-container mt-5">
+          <!-- trending-topics section -->
+          <div class="trending-topics">
+            <h5 class="text-secondary fs-4 m-2">Trending Topic</h5>
+            <hr />
+            <div class="card-container">
+              <div class="row">
+                <div class="col-xl-4 col-lg-6">
+                  <div class="mycard p-0">
+                    <p
+                      class="px-2 m-2 d-inline-flex bg-primary rounded-pill text-white"
+                    >
+                      Human Rights
+                    </p>
+                    <div class="position-relative">
+                      <img
+                        src="./img/card-bg.jpg"
+                        alt=""
+                        width="100%"
+                        height="100%"
+                      />
+                      <div
+                        class="position-absolute bottom-0 bg-secondary ps-3 bg-opacity-75 w-75"
+                      >
+                        <p class="text-white fs-5">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit.
+                        </p>
+                        <a
+                          class="btn-primary btn-sm rounded-0 text-decoration-none"
+                        >
+                          View
+                        </a>
+                        <div class="mx-3 mt-2">
+                          <p class="fst-italic small fw-bold d-inline-block">
+                            JunWise
+                          </p>
+                          <p class="ms-5 small d-inline-block">12, Feb 2020</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                  <div class="mycard p-0">
+                    <p
+                      class="px-2 m-2 d-inline-flex bg-primary rounded-pill text-white"
+                    >
+                      Human Rights
+                    </p>
+                    <div class="position-relative">
+                      <img
+                        src="./img/card-bg.jpg"
+                        alt=""
+                        width="100%"
+                        height="100%"
+                      />
+                      <div
+                        class="position-absolute bottom-0 bg-primary ps-3 bg-opacity-25 w-75"
+                      >
+                        <p class="text-white fs-5">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit.
+                        </p>
+                        <a
+                          class="btn-primary btn-sm rounded-0 text-decoration-none"
+                        >
+                          View
+                        </a>
+                        <div class="mx-3 mt-2">
+                          <p class="fst-italic small fw-bold d-inline-block">
+                            JunWise
+                          </p>
+                          <p class="ms-5 small d-inline-block">12, Feb 2020</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                  <div class="mycard p-0">
+                    <p
+                      class="px-2 m-2 d-inline-flex bg-primary rounded-pill text-white"
+                    >
+                      Human Rights
+                    </p>
+                    <div class="position-relative">
+                      <img
+                        src="./img/card-bg.jpg"
+                        alt=""
+                        width="100%"
+                        height="100%"
+                      />
+                      <div
+                        class="position-absolute bottom-0 bg-secondary ps-3 bg-opacity-75 w-75"
+                      >
+                        <p class="text-white fs-5">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit.
+                        </p>
+                        <a
+                          class="btn-primary btn-sm rounded-0 text-decoration-none"
+                        >
+                          View
+                        </a>
+                        <div class="mx-3 mt-2">
+                          <p class="fst-italic small fw-bold d-inline-block">
+                            JunWise
+                          </p>
+                          <p class="ms-5 small d-inline-block">12, Feb 2020</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                  <div class="mycard p-0">
+                    <p
+                      class="px-2 m-2 d-inline-flex bg-primary rounded-pill text-white"
+                    >
+                      Human Rights
+                    </p>
+                    <div class="position-relative">
+                      <img
+                        src="./img/card-bg.jpg"
+                        alt=""
+                        width="100%"
+                        height="100%"
+                      />
+                      <div
+                        class="position-absolute bottom-0 bg-secondary ps-3 bg-opacity-75 w-75"
+                      >
+                        <p class="text-white fs-5">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit.
+                        </p>
+                        <a
+                          class="btn-primary btn-sm rounded-0 text-decoration-none"
+                        >
+                          View
+                        </a>
+                        <div class="mx-3 mt-2">
+                          <p class="fst-italic small fw-bold d-inline-block">
+                            JunWise
+                          </p>
+                          <p class="ms-5 small d-inline-block">12, Feb 2020</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end trending-topics section -->
+          <!-- search-result section -->
+          <div class="search-resut">
+            <h5 class="text-secondary fs-4 m-2">Search Result</h5>
+            <hr />
+            <div class="card-container d-lg-flex">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="mycard">
+                    <span class="px-2 my-2 bg-primary rounded-0 text-white">
+                      Human Rights
+                    </span>
+
+                    <div class="d-flex justify-content-between">
+                      <img
+                        src="./img/card-bg.jpg"
+                        alt=""
+                        width="200px"
+                        class=""
+                      />
+                      <p class="fs-5 ms-4 fw-bold">
+                        Lorem ipsum dolor s Distinctio vel voluptatesit amet,
+                        Lorem ipsum dolor sit amet, .
+                      </p>
+                    </div>
+                    <p class="mt-1">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      . Distinctio vel voluptates maxime commodi necessitatibus
+                      temporibus eum numquam quos. Dolores adipisci delectus
+                      officiis sint m.
+                    </p>
+                    <div class="ms-3 d-flex">
+                      <p class="fst-italic small fw-bold">JunWise</p>
+                      <p class="ms-5 small">12, Feb 2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mycard">
+                    <span class="px-2 my-2 bg-primary rounded-0 text-white">
+                      Human Rights
+                    </span>
+
+                    <div class="d-flex justify-content-between">
+                      <img
+                        src="./img/card-bg.jpg"
+                        alt=""
+                        width="200px"
+                        class=""
+                      />
+                      <p class="fs-5 ms-4 fw-bold">
+                        Lorem ipsum dolor s Distinctio vel voluptatesit amet,
+                        Lorem ipsum dolor sit amet, .
+                      </p>
+                    </div>
+                    <p class="mt-1">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      . Distinctio vel voluptates maxime commodi necessitatibus
+                      temporibus eum numquam quos. Dolores adipisci delectus
+                      officiis sint m.
+                    </p>
+                    <div class="ms-3 d-flex">
+                      <p class="fst-italic small fw-bold">JunWise</p>
+                      <p class="ms-5 small">12, Feb 2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mycard">
+                    <span class="px-2 my-2 bg-primary rounded-0 text-white">
+                      Human Rights
+                    </span>
+
+                    <div class="d-flex justify-content-between">
+                      <img
+                        src="./img/card-bg.jpg"
+                        alt=""
+                        width="200px"
+                        class=""
+                      />
+                      <p class="fs-5 ms-4 fw-bold">
+                        Lorem ipsum dolor s Distinctio vel voluptatesit amet,
+                        Lorem ipsum dolor sit amet, .
+                      </p>
+                    </div>
+                    <p class="mt-1">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      . Distinctio vel voluptates maxime commodi necessitatibus
+                      temporibus eum numquam quos. Dolores adipisci delectus
+                      officiis sint m.
+                    </p>
+                    <div class="ms-3 d-flex">
+                      <p class="fst-italic small fw-bold">JunWise</p>
+                      <p class="ms-5 small">12, Feb 2020</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mycard">
+                    <span class="px-2 my-2 bg-primary rounded-0 text-white">
+                      Human Rights
+                    </span>
+
+                    <div class="d-flex justify-content-between">
+                      <img
+                        src="./img/card-bg.jpg"
+                        alt=""
+                        width="200px"
+                        class=""
+                      />
+                      <p class="fs-5 ms-4 fw-bold">
+                        Lorem ipsum dolor s Distinctio vel voluptatesit amet,
+                        Lorem ipsum dolor sit amet, .
+                      </p>
+                    </div>
+                    <p class="mt-1">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      . Distinctio vel voluptates maxime commodi necessitatibus
+                      temporibus eum numquam quos. Dolores adipisci delectus
+                      officiis sint m.
+                    </p>
+                    <div class="ms-3 d-flex">
+                      <p class="fst-italic small fw-bold">JunWise</p>
+                      <p class="ms-5 small">12, Feb 2020</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end search-result section -->
+        </div>
+      </div>
+      <!-- pagination -->
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true"><-</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">.</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">.</a></li>
+          <li class="page-item"><a class="page-link" href="#">.</a></li>
+          <li class="page-item"><a class="page-link" href="#">8</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">-></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- end pagination -->
+
+      <!-- end body section -->
+      <!-- footer section -->
+
+      <!-- end footer section -->
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+  <!-- <script src="app.js"></script>
+  <script src="./node_modules/sass/sass.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>

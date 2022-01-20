@@ -1,0 +1,16 @@
+{
+  "name": "web-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass scss/custom.scss css/custom.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.48.0"
+  }
+}
